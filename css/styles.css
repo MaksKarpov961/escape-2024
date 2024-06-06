@@ -105,11 +105,15 @@ body {
 
 /* ----------------------HEADER------------------------------------------------ */
 
-.section-head {
+.head-wrapper-all{
   width: 1440px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/mount-fone.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.section-head {
+
 }
 
 .head-container{
