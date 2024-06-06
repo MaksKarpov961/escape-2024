@@ -1,0 +1,318 @@
+/* -------- НОРМАЛІЗАТОР ---------------------------- */
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a сбрасываем до дефолтных стилей */
+a {
+  text-decoration: none;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article>*+* {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* --------- ОБЩИЕ СТИЛИ --------------- */
+body {
+  font-family: "Oxygen", sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.section {
+
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+/* ----------------------HEADER------------------------------------------------ */
+
+.section-head {
+  width: 1440px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/mount-fone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-logo {
+  font-family: "Lora", sans-serif;
+  font-size: 26px;
+  line-height: 1;
+  color: #fff;
+  padding: 27px 0;
+}
+
+.head-menu-list {
+  display: flex;
+  gap: 20px;
+}
+
+.head-menu-item {
+  padding: 27px 0;
+}
+
+.head-menu-link {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+/* ------------------------LETSDO--------------------------------------------------------- */
+
+
+.section-letsdo {
+
+}
+
+.letsdo-title {
+
+}
+
+.letsdo-descr {
+
+}
+
+.letsdo-btn {
+
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.section-advanture {
+
+}
+
+.advanture-menu-list {
+
+}
+
+.advanture-menu-item {
+
+}
+
+.advanture-menu-link {
+
+}
+
+.section-featured {
+
+}
+
+.featured {
+
+}
+
+.title {
+
+}
+
+.line {
+
+}
+
+.featured-wrapper {
+
+}
+
+.featured-subtitle {
+
+}
+
+.featured-descr {
+
+}
+
+.featured-post-container {
+
+}
+
+.post-img-wrapper {
+
+}
+
+.post-img {
+
+}
+
+.post-img-name {
+
+}
+
+.post-datatime {
+
+}
+
+.recent-section {
+
+}
+
+.recent-title {
+
+}
+
+.recent-list {
+
+}
+
+.recent-item {
+
+}
+
+.recent-img {
+
+}
+
+.recent-text-container {
+
+}
+
+.recent-subtitle {
+
+}
+
+.recent-descr {
+
+}
+
+.recent-container-response {
+
+}
+
+.recent-response-img {
+
+}
+
+.recent-response-name {
+
+}
+
+.recent-response-datatime {
+
+}
+
+.footer {
+
+}
+
+.footer-title {
+
+}
+
+.footer-form {
+
+}
+
+.footer-form-btn {
+
+}
+
+.footer-menu {
+
+}
+
+.footer-logo {
+
+}
+
+.footer-menu-list {
+
+}
+
+.footer-menu-item {
+
+}
+
+.footer-menu-link {
+
+}
