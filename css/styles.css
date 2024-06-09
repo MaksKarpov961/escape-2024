@@ -106,7 +106,8 @@ body {
 /* ----------------------HEADER------------------------------------------------ */
 
 .head-wrapper-all{
-  width: 1440px;
+  margin: 0 auto;
+  max-width: 1440px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/mount-fone.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,101 +157,245 @@ body {
 
 
 .section-letsdo {
-
+  padding-bottom: 157px;
 }
 
 .letsdo-title {
-
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.02;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;  
+  margin-bottom: 20px;
 }
 
 .letsdo-descr {
-
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.17;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.63);
+  margin-bottom: 31px;
 }
 
 .letsdo-btn {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.53;
+  text-align: center;
+  color: #fff;
+  background: #dd783f;
+  border-radius: 3px;
+  padding: 12px 31px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  box-shadow: 0 5px 15px 0 #dd783f;
+  transition: 0.5s;
 
+}
+
+.letsdo-btn:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 20px 40px 0 #dd783f;
 }
 
 /* ---------------------------------------------------------------------------------------- */
 
-.section-advanture {
 
+/* ------------------------ADVANTURE-------------------------------------- */
+
+.section-advanture {
+  padding: 22px 0;
 }
 
 .advanture-menu-list {
-
+  display: flex;
+  gap: 21px;
+  justify-content: center;
 }
 
-.advanture-menu-item {
 
+.advanture-menu-item {
+  width: 139px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .advanture-menu-link {
-
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  text-align: center;
+  color: #768088;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-featured {
+.advanture-menu-link:hover{
+  color: #dd783f;
+}
 
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* -----------------------featured-------------------------------------------- */
+
+.section-featured {
+  padding-top: 60px;
 }
 
 .featured {
 
 }
 
-.title {
-
+.featured-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #2e2e2e;
+  margin-bottom: 16px;
 }
 
 .line {
+  width: 188px;
+  height: 1px;
+  background: #dedede;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
 
+.featured-cont-box{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .featured-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 960px;
+  height: 294px;
+  padding: 20px;
+  padding-bottom: 15px;
 
+}
+
+.featured-top{
+  background-image: url(../images/fromTop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.featured-road{
+background-image: url(../images/theRoad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.featured-button{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.08;
+  text-transform: uppercase;
+  color: #fff;
+  background: #dd783f;
+  border-radius: 2px;
+  padding: 6px 9px 7px 9px;
+  display: inline-block;
+  width: 87px;
+  height: 26px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 117px;
 }
 
 .featured-subtitle {
-
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 1.11;
+  color: #fff;
+  margin-bottom: 6px;
 }
 
 .featured-descr {
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.78571;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 12px;
 }
 
 .featured-post-container {
-
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .post-img-wrapper {
-
+  display: flex;
+  position: relative;
 }
 
 .post-img {
-
+  position: absolute;
+  transform: translateY(25%);
 }
 
 .post-img-name {
-
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.91;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 36px;
 }
 
 .post-datatime {
-
+  font-weight: 400;
+  font-size: 12px;  
+  line-height: 2.91;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.recent-section {
 
+/* ---------------------------------------------------------------------------------------- */
+
+/* ---------------------------Recent------------------------------------------- */
+
+.recent-section {
+  padding-top: 60px;
+  padding-bottom: 90px;
 }
 
 .recent-title {
-
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #2e2e2e;
+  margin-bottom: 16px;
 }
 
 .recent-list {
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 25px;
 }
 
 .recent-item {
-
+  width: 296px;
+  height: 291px;
 }
 
 .recent-img {
@@ -258,65 +403,183 @@ body {
 }
 
 .recent-text-container {
+  padding: 14px 13px 6px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.recent-subtitle-text-box{
+  margin-bottom: 13px;
 }
 
 .recent-subtitle {
-
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #101315;
+  margin-bottom: 6px;
 }
 
 .recent-descr {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.46;
+  margin-bottom: 13px;
+}
 
+.recent-descr-1{
+  margin-bottom: 20px;
+}
+
+.recent-descr-2{
+  margin-bottom: 33px;
 }
 
 .recent-container-response {
+  border-top: 1px solid #efefef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.recent-img-box{
+  display: flex;
+  gap: 10px;
+  padding-top: 7px;
+  align-items: center;
 }
 
 .recent-response-img {
-
+  margin-top: 3px;
 }
 
 .recent-response-name {
-
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 3.18;
+  color: #999;
 }
 
 .recent-response-datatime {
-
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.91;
+  color: #999;
+  margin-top: 7px;
 }
 
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
 .footer {
+  padding-top: 80px;
+  background-image: url(../images/footerfon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 1440px;
 
 }
 
 .footer-title {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.2;
+  text-align: center;
+  color: #efefef;
+  margin-bottom: 17px;
+}
 
+.line-footer{
+  background-color: #dedede;
+  width: 188px;
+  height: 1px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .footer-form {
+  display: flex;
+  margin-left: 220px;
+  margin-bottom: 90px;
+}
 
+.footer-form-input{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #817f83;
+
+  background: #fff;
+  border-radius: 3px 0 0 3px;
+  width: 375px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 15px;
+}
+
+.footer-form-input::placeholder{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #817f83;
 }
 
 .footer-form-btn {
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #f8f8f8;
+  background: rgba(255, 255, 255, 0.28);
+  border-radius: 0 3px 3px 0;
+  width: 125px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
 }
 
 .footer-menu {
-
+  background: rgba(35, 47, 56, 0.6);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 250px;
 }
 
 .footer-logo {
-
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1;
+  color: #fff;
+  padding: 31px 0;
 }
 
 .footer-menu-list {
-
+  display: flex;
+  gap: 20px;
 }
 
 .footer-menu-item {
-
+  padding: 31px 0;
 }
 
 .footer-menu-link {
-
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 2.36;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.6);
+  
 }
+
+
+
